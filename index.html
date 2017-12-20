@@ -12,8 +12,8 @@
        
        <style>
         		.bubble{
-			width:150px; height:900px; 
-			background:url('bubble_1.png');
+			width:50px; height:900px; 
+			background:url('snow.png');
 			background-size:100% auto;
 			background-repeat:no-repeat;
 			animation: bMove 8s linear;
@@ -25,23 +25,26 @@
 			100%{ background-position:0 0;opacity:0;}
 		}
 	
-       html  { font-family: 'Spoqa Han Sans'; font-weight: 200;}
+       html  { font-family: 'Spoqa Han Sans'; font-weight: 200;font-weight:bold;}
 			
-       	header #logo{width:1000px;height:100px;text-align: center;margin-left:50;top:-10px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none }
+       	header #logo{width:1000px;height:100px;text-align: center;margin-left:70;top:-5px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none }
 
        		header #logo2{width:1000px;height:10px;text-align: center;margin-left:1300;top:-95px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
 
        		header #logo3{width:1000px;height:10px;text-align: center;margin-left:1300;top:10px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
+
+
+       		header #logo4{width:1000px;height:10px;text-align: center;margin-left:1300;top:115px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
        	
-       	header #menu{width:1700px;height:200px;position:relative;left:calc(30%-10px);top:120px;transition: all 0.3s;  z-index:9999; }
+       	header #menu{width:1700px;height:200px;position:relative;left:calc(30%-10px);top:90px;transition: all 0.3s;  z-index:9999; top:30px;}
        
-		header #menu li{width:200px;height:100px;float:left;text-align:center;margin-left:-70; margin-right:100;display:block;cursor:pointer; z-index:9999; position: relative;}
+		header #menu li{width:200px;height:100px;float:left;text-align:center;margin-left:-120; margin-right:120;display:block;cursor:pointer; z-index:9999; position: relative;}
   
-   header #menuA:hover{background: url('bubble_2.png'); background-size: 100% auto;margin-bottom:300px;} 
-    header #menuB:hover{background: url('bubble_3.png'); background-size: 100% auto;margin-bottom:300px;} 
-     header #menuC:hover{background: url('bubble_4.png'); background-size: 100% auto;margin-bottom:300px;} 
-      header #menuD:hover{background: url('bubble_5.png'); background-size: 100% auto;margin-bottom:300px;} 
-       header #menuE:hover{background: url('bubble_6.png'); background-size: 100% auto;margin-bottom:300px;} 
+   header #menuA:hover{background: url('bubble_2.png'); background-size: 100% auto;margin-bottom:700px;} 
+    header #menuB:hover{background: url('bubble_3.png'); background-size: 100% auto;margin-bottom:700px;} 
+     header #menuC:hover{background: url('bubble_4.png'); background-size: 100% auto;margin-bottom:700px;} 
+      header #menuD:hover{background: url('bubble_5.png'); background-size: 100% auto;margin-bottom:700px;} 
+       header #menuE:hover{background: url('bubble_6.png'); background-size: 100% auto;margin-bottom:700px;} 
 
 
 
@@ -103,7 +106,7 @@
 		h1{color:white;font-size: 3em;text-align: center;padding-top:280px; line-height: 1.2;padding-left: 100px;padding-right: 100px;letter-spacing: -1px;z-index: 9600;}
 
 
-       #sectionA{ background: url('./sea-2.png');background-size:100% auto;background-position: 0px -50px;}   
+       #sectionA{ background: url('./sea-2.png');background-size:100% auto;background-position: 0px -50px;background-color: 010123;}   
        #sectionB{ background: url('./무제-6.png');background-size:100% auto;background-position: 0px -50px;  }
        #sectionC{ background: url('./무제-5.png');background-size:100% auto;background-position: 0px -50px; }
        #sectionD{ background: url('./무제-3.png');background-size:100% auto;background-position: 0px -50px; }
@@ -114,7 +117,7 @@
       </style>
 
       <audio autoplay loop>
-	<source src="상어가족.mp3" type="audio/ogg">
+	<source src="christmas song.mp3" type="audio/ogg">
 </audio>
 
    </head>
@@ -122,11 +125,14 @@
 <body>
 	<div id="balCon"></div>
 	<header id="header">
-	<div id="logo"><img src="로고4.png" width="250px" height="250px"> </div>
+	<div id="logo"><img src="christmas.png" width="250px" height="250px"> </div>
 
-	<div id="logo2"><img src="로고4.png" width="150px" height="150px"> </div>
+	<div id="logo2"><a href="https://sukyeong.github.io/shark-family/"><img src="로고4.png" width="150px" height="150px"> </a></div>
 
-	<div id="logo3"><img src="halloween.png" width="150px" height="150px"> </div>
+	<div id="logo3"><a href="https://sukyeong.github.io/shark-Halloween/"><img src="halloween.png" width="150px" height="150px"> </div>
+
+	<div id="logo4"><a href="https://sukyeong.github.io/shark-X-mas/"><img src="christmas.png" width="150px" height="150px"> </div>
+
 
 
 	<div id="star">
@@ -141,21 +147,21 @@
 			<div id="shell">
 		<img src="조개.png" width="100px" height="100px" style="float:right;"></div>
 
-					<div id="jelly">
+        <div id="jelly">
 		<img src="해파리.png" width="100px" height="100px" style="float:right;"></div>
 	
 	<div id="menu">
 
 		<ul>
-			<li id="menuA"><img src="아기상어-2.png" width="300px" height="300px" ></li>
+			<li id="menuA"><img src="산타파도.gif" width="1200px" height="300px" ;></li>
 
-			<li id="menuB"><img src="엄마.png" width="300px" height="300px" ></li>
+			<li id="menuB"></li>
 		
-			<li id="menuC"><img src="아빠.1.png" width="300px" height="300px" ></li>
+			<li id="menuC"></li>
 			
-			<li id="menuD"><img src="할머니.png" width="300px" height="300px" ></li>
+			<li id="menuD"></li>
 		
-			<li id="menuE"><img src="할아버지-상어.png" width="300px" height="300px" ></li>
+			<li id="menuE"></li>
 			
 		</ul>
 	</div>
@@ -167,63 +173,90 @@
 		<br>
 		<br>
 		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		아기 상어
 		<br>
-뚜루루뚜루
+뚜 루루 뚜루 
 <br>
-귀여운 
+신나는   
 <br>
-뚜루루뚜루 
+뚜 루루 뚜루 
 <br>
-아기상어</h1>
+크리스마스
+<br>
+뚜 루루 뚜루 
+<br>
+아기 상어 
+</h1>
 	<div style="position: relative;">
 </div>
 <div class="section" id="sectionB">
 	<h1 id="titleB">
 	엄마 상어
 	<br>
-	뚜루루뚜루
+	뚜 루루 뚜루 
 	<br>
-	어여쁜
+	설레는
 	<br>
-	뚜루루뚜루
+	뚜 루루 뚜루  
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루  
 	<br>
 	엄마 상어~ </h1>
 	<div style="position: relative;left:10px;top:-70px;">
 </div>
 <div class="section" id="sectionC">
 	<h1 id="titleC">아빠 상어
-		<br>
-뚜루루뚜루
-<br>
-힘이 센 
-<br>
-뚜루루뚜루
-<br> 
-아빠 상어</h1>
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	즐거운 
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	아빠 상어~</h1>
 	<div style="position: relative;left:20px;top:-100px;">
 </div>
 <div class="section" id="sectionD">
-	<h1 id="titleD">할머니상어
-뚜루루뚜루
-<br>
- 자상한
-<br>
-뚜루루뚜루 
-<br>
-할머니 상어~</h1>
+	<h1 id="titleD">할머니 상어
+	<br>
+	뚜 루루 뚜루
+	<br>
+	행복한
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	할머니 상어~</h1>
 	<div style="position: relative;left:30px;top:-120px;">
 </div>
 <div class="section" id="sectionE">
-	<h1 id="titleE">할아버지상어
-		<br>
-뚜루루뚜루
-<br>
-멋있는 
-<br>
-뚜루루뚜루 
-<br>
-할아버지 상어
+	<h1 id="titleE">할아버지 상어
+	<br>
+	뚜 루루 뚜루
+	<br>
+	행복한 
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	크리스마스
+	<br>
+	뚜뚜 루루 뚜루 
+	<br>
+	할아버지 상어~
 <br>
 <br>
 <br>
@@ -357,10 +390,10 @@ function randomBH(min, max) {
 	window.onload = function(){window.scrollTo(0,0);}
 		
 		menuA.onclick = function(){ aniScroll(0); }
-		menuB.onclick = function(){ aniScroll(620); }
-		menuC.onclick = function(){ aniScroll(1100); }
-		menuD.onclick = function(){ aniScroll(1800); }
-		menuE.onclick = function(){ aniScroll(2100); }
+		menuB.onclick = function(){ aniScroll(1100); }
+		menuC.onclick = function(){ aniScroll(1800); }
+		menuD.onclick = function(){ aniScroll(2500); }
+		menuE.onclick = function(){ aniScroll(3500); }
 		function aniScroll(destination){
 			var distance = destination - document.body.scrollTop;
 			scrollByAnimated(distance, 250);
@@ -368,7 +401,7 @@ function randomBH(min, max) {
 	window.onscroll = function(){
 		console.log(document.body.scrollTop);
 		var scrollH = document.body.scrollTop;
-		if (scrollH > 50 && scrollH < 120){
+		if (scrollH > 00 && scrollH < 120){
 			sectionA.style.backgroundAttachment = "fixed";
 		    header.style.height = "44px";
 			header.style.position = "fixed";
